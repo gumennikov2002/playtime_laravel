@@ -29,7 +29,13 @@ h1 a:hover {
 
 header {
 	padding: 10px;
-	background: var(--main-color);
+	/* background: var(--main-color); */
+	background: #787878;
+}
+
+img#logo {
+	width: 48px;
+	height: 48px;
 }
 
 .container-custom {
@@ -44,7 +50,8 @@ header h1 {
 
 footer {
 	padding: 25px;
-	background: var(--main-color);
+	/* background: var(--main-color); */
+	background: #787878;
 }
 
 .hidden {
@@ -75,12 +82,16 @@ footer {
 
 .game-box {
 	width: 180px;
-	background: var(--main-color);
+	/* background: var(--main-color); */
+	background: #f4f4f4;
 	cursor: pointer;
 	text-align: center;
 	padding: 10px;
 	transition: 0.4s;
-	color: #fff;
+	color: #787878;
+	box-shadow: 0px 21px 0px 0px rgba(162, 162, 162, 1);
+	border-radius: 10px;
+
 }
 
 .game-box span {
@@ -96,12 +107,14 @@ footer {
 	height: 150px;
 	background: #dfe8fe;
 	margin-bottom: 10px;
+	border-radius: 5px;
 }
 
 .back-from-game, .refresh-game {
 	margin-top: 10px;
 	font-size: 24px !important;
 	cursor: pointer;
+	color: #787878;
 }
 
 .spacer {

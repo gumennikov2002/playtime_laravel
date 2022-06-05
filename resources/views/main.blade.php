@@ -1,7 +1,7 @@
 <html>
 <head>
-    <title>Mathtime!</title>
-
+    <title>PlayTime!</title>
+    <link rel="shortcut icon" href="/img/fav.png" type="image/x-icon">
     <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no"/>
     <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
     <meta name="HandheldFriendly" content="true"/>
@@ -13,7 +13,9 @@
 
 <header class="container">
     <div class="container d-flex justify-content-between">
-        <h1 class="stroked floater"><a href="/">PlayTime!</a></h1>
+        <h1 class="stroked floater"><a href="/">
+            <img src="/img/logo.png" id="logo" alt="" ondragstart="return false">
+        </a></h1>
         @if ( isset($user) )
             <div class="text-light pt-3">
                 <a class="text-light stroked" href="{{ route('lk') }}">{{ $user['nickname'] }}</a>

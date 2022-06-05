@@ -94,9 +94,9 @@ class Controller {
 	openGame = (name, title) => {
 		this.app.innerHTML = `
 			<div class="d-flex justify-content-between pt-3 mb-2">
-				<i class="pt-1 fa fa-backward text-primary back-from-game"></i>
+				<i class="pt-1 fa fa-backward back-from-game"></i>
 				<h2 class="pt-2 text-center">${title}</h2>
-				<i class="pt-1 fa fa-refresh text-primary refresh-game"></i>
+				<i class="pt-1 fa fa-refresh refresh-game"></i>
 			</div>
 			<div class="row pb-5">
 				<div id="gameFrame">
